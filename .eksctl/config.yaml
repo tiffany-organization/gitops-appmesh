@@ -1,8 +1,8 @@
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 metadata:
-  name: appmesh
-  region: us-west-2
+  name: appmesh-ms-demo-tw
+  region: eu-central-1
   version: "1.18"
 nodeGroups:
   - name: default
